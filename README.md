@@ -11,11 +11,18 @@ real time, as a small computer-vision layer on top of the core simulation.
 This document explains what's in this repository, what needs to be installed, and the exact
 steps to build and run it.
 
-<!-- TODO: replace YOUR_VIDEO_ID below with the real YouTube video id once the demo is recorded and uploaded -->
 [![Watch the Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=0bZosVkKMuE)
 
-![Idle, waiting for START](assets/gui_demo1.png)
-![Flying, with cars detected and tracked (persistent #ID per car)](assets/gui_demo2.png)
+<table>
+<tr>
+<td><img src="assets/gui_demo1.png" alt="Idle, waiting for START" width="400"></td>
+<td><img src="assets/gui_demo2.png" alt="Flying, with cars detected and tracked (persistent #ID per car)" width="400"></td>
+</tr>
+<tr>
+<td align="center"><sub>Idle, waiting for START</sub></td>
+<td align="center"><sub>Flying, with cars detected and tracked (persistent #ID per car)</sub></td>
+</tr>
+</table>
 
 > **Prerequisites, at a glance:**
 > - **Python 3.10+**
