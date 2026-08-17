@@ -28,7 +28,7 @@ Tested on **Ubuntu 22.04.5 LTS**.
 
 ```bash
 git clone https://github.com/talaaron/drone-sim
-cd sim_dron_testmkdir drone-sim && cd drone-sim
+cd drone-sim
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -70,11 +70,15 @@ from its first incoming command.
 
 **Terminal 1:**
 ```bash
+cd drone-sim
+source .venv/bin/activate
 python3 -m drone.main
 ```
 
 **Terminal 2:**
 ```bash
+cd drone-sim
+source .venv/bin/activate
 python3 -m gcs.main --drone-host 127.0.0.1
 ```
 
